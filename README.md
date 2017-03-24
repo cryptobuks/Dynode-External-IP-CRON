@@ -1,11 +1,11 @@
 # **Dynode CRON for dynamic IP addresses**
 
-This monitors the external IP address each minute and updates dynode.conf upon changing.
+Monitors the external IP address each minute, updates dynode.conf upon change and restarts the Dynode.
 
 
 Information
 -----------
-The script must run as an 1 minute CRON job. 
+The script must be ran as a 1 minute CRON job. 
 
 The current IP address of the Dynode is pulled from the connected peers/nodes list and then compared with the content of the IP history file, if the result differs to the previous result then the new IP address is written to both the IP history file and to Dynode.conf
 
