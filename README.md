@@ -12,3 +12,5 @@ The current IP address of the Dynode is pulled from the connected peers/nodes li
 Once this change is written to Dynode.conf the dynamic daemon(dynamicd) is automatically shutdown safely and restarted.
 
 The Dynode must be hot (local and contain the collateral) otherwise upon restart the Dynode will not autostart.
+
+The CRON must be ran only on a machine running a single Dynode instance.
